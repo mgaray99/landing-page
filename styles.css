@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top, .middle-top, .middle-bottom, .bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    justify-content: flex-start;
+}
+
+.top, .footer {
+    background-color: #1f2937;
+}
+
+.middle-bottom, .middle-top {
+    justify-content: center;
+}
+
+.middle-bottom {
+    background-color: #e5e7eb;
+}
+
+.bottom {
+    justify-content: flex-end;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    font-size: 24px;
+}
+
+header, .hero .text .main {
+    color: #f9faf8;
+}
+
+.links, .hero .text .secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero .text, .hero .image{
+    flex: 1;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .text .main {
+    font-size: 48px;
+}
+
+.hero .text .secondary {
+    font-size: 18px;
+}
+
+.hero .text button {
+    align-self: flex-start;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.hero .image {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .title, .quote .text {
+    font-size: 36px;
+    color: #1f2937
+}
+
+.info .items {
+    display: flex;
+}
+
+.info .items .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .items .item .image {
+    border: 8px solid #3882f6;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote .credit {
+    align-self: flex-end;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+}
+
+.call-to-action .text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.call-to-action button {
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
